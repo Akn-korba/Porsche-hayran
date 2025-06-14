@@ -47,3 +47,15 @@ function showDetails(modelKey) {
   const detayDiv = document.getElementById("modelDetay");
   detayDiv.innerHTML = detayHtml;
 }
+function showDetails(model) {
+  const detay = {
+    "911": "Porsche 911, ikonik bir spor otomobildir. 0'dan 100'e 3.5 saniyede!",
+    "taycan": "Taycan, Porsche'nin ilk tamamen elektrikli modelidir. Sessiz ama ölümcül hızlı.",
+    "cayenne": "Cayenne, SUV konforunu Porsche performansıyla birleştirir."
+  };
+
+  document.getElementById("modelDetay").innerHTML = `
+    <p>${detay[model]}</p>
+  `;
+}
+

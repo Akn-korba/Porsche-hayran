@@ -7,7 +7,7 @@ body {
 
 header {
   text-align: center;
-  background-color: ##d0d0d0;
+  background-color: #111;
   padding: 20px;
   border-bottom: 2px solid #D4AF37;
 }
@@ -29,7 +29,7 @@ h1, h2, h3 {
 }
 
 .model-card {
-  background-color: #d0d0d0;
+  background-color: #1a1a1a;
   border: 1px solid #333;
   border-radius: 10px;
   width: 300px;
@@ -51,7 +51,7 @@ h1, h2, h3 {
 form {
   max-width: 500px;
   margin: 0 auto;
-  background-color: #d0d0d0;
+  background-color: #111;
   padding: 20px;
   border-radius: 10px;
 }
@@ -65,7 +65,7 @@ input, textarea, button {
 }
 
 button {
-  background-color: #d0d0d0;
+  background-color: #D4AF37;
   color: #000;
   font-weight: bold;
   cursor: pointer;
@@ -73,12 +73,12 @@ button {
 }
 
 button:hover {
-  background-color: #d0d0d0;
+  background-color: #C70039;
 }
 
 footer {
-  background-color: #d0d0d0;
-  text-align: cente
+  background-color: #111;
+  text-align: center;
   padding: 15px;
   margin-top: 40px;
   border-top: 2px solid #D4AF37;

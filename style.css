@@ -1,23 +1,23 @@
 body {
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background-color: #f9f9f9;
-  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #fff;
 }
 
 header {
-  background: black;
-  color: white;
-  padding: 20px;
   text-align: center;
+  background-color: #111;
+  padding: 20px;
+  border-bottom: 2px solid #D4AF37;
 }
 
 .logo {
-  width: 80px;
+  width: 120px;
 }
 
-h1, h2 {
-  margin: 0.5em 0;
+h1, h2, h3 {
+  color: #D4AF37;
 }
 
 .model-container {
@@ -29,33 +29,57 @@ h1, h2 {
 }
 
 .model-card {
-  background: white;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
   border-radius: 10px;
-  overflow: hidden;
   width: 300px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
 }
 
 .model-card:hover {
-  transform: scale(1.03);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #D4AF37;
 }
 
 .model-card img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  border-radius: 8px;
 }
 
-#detaylar {
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #111;
   padding: 20px;
-  background-color: #eee;
+  border-radius: 10px;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #D4AF37;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #C70039;
 }
 
 footer {
-  background: #111;
-  color: white;
+  background-color: #111;
   text-align: center;
   padding: 15px;
+  margin-top: 40px;
+  border-top: 2px solid #D4AF37;
 }

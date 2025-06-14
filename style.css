@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: ##d0d0d0;
+  background-color: #000;
   color: #fff;
 }
 
 header {
   text-align: center;
-  background-color: #d0d0d0;
+  background-color: #111;
   padding: 20px;
   border-bottom: 2px solid #D4AF37;
 }
@@ -29,7 +29,7 @@ h1, h2, h3 {
 }
 
 .model-card {
-  background-color: ##d0d0d0;
+  background-color: #d0d0d0;
   border: 1px solid #333;
   border-radius: 10px;
   width: 300px;
